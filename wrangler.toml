@@ -1,0 +1,11 @@
+name = "incidencias-traslados"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+[assets]
+directory = "./"
+binding = "ASSETS"
+
+[[kv_namespaces]]
+binding = "INCIDENCIAS_KV"
+id = "df46c3af31cc4aa294f48e7ee4e17748"
